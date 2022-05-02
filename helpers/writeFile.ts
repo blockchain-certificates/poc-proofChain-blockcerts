@@ -1,5 +1,5 @@
 const fs = require('fs');
-import {getDefaultFilePath} from './getDefaultFilePath';
+import getDefaultFilePath from './getDefaultFilePath';
 import prettyFormat from './prettyFormat';
 
 

@@ -11,7 +11,7 @@ export default async function generateSignerData () {
   keyPair.id = keyPair.controller + '#' + keyPair.publicKeyMultibase;
   await writeFile(keyPair, DEFAULT_KEY_PAIR_FILE_NAME, 'identity/');
   console.log('key pair generated:', keyPair);
-  await writeFile(didDocument, 'did.json');
+  await writeFile(didDocument, 'did.json', 'identity/');
   console.log('did document generated:', didDocument);
   return { keyPair, didDocument };
 }

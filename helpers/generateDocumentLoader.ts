@@ -1,8 +1,8 @@
 import { securityLoader } from '@digitalbazaar/security-document-loader';
+import blockcertsContext from '../contexts/blockcerts-v3.json';
 
 export default function generateDocumentLoader () {
   const documentLoader = securityLoader();
-  // example add context
-  // documentLoader.addStatic('https://w3id.org/vc-revocation-list-2020/v1', revocationList2020Context);
+  documentLoader.addStatic('https://w3id.org/blockcerts/v3', blockcertsContext);
   return documentLoader.build();
 }

@@ -1,0 +1,7 @@
+{
+  "id": "did:key:z6MkjHnntGvtLjwfAMHWTAXXGJHhVL3DPtaT9BHmyTjWpjqs#z6MkjHnntGvtLjwfAMHWTAXXGJHhVL3DPtaT9BHmyTjWpjqs",
+  "controller": "did:key:z6MkjHnntGvtLjwfAMHWTAXXGJHhVL3DPtaT9BHmyTjWpjqs",
+  "type": "Ed25519VerificationKey2020",
+  "publicKeyMultibase": "z6MkjHnntGvtLjwfAMHWTAXXGJHhVL3DPtaT9BHmyTjWpjqs",
+  "privateKeyMultibase": "zrv4M7SqsvbB8UAc1HGDpZiJzckLnnHf3gNmUY6DTkfQuguPjD2PbY7ioNGKqHGBoteQCNw4p4aU9UdDhWCiQ1JWkP3"
+}

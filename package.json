@@ -2,9 +2,9 @@
   "name": "poc-proofchain-blockcerts",
   "version": "1.0.0",
   "description": "",
-  "main": "sign-by-issuer.js",
+  "main": "sign-by-issuer.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sign-by-issuer": "ts-node sign-by-issuer.ts"
   },
   "author": "",
   "license": "ISC",
@@ -15,5 +15,8 @@
     "@digitalbazaar/security-document-loader": "^1.1.1",
     "jsonld-signatures": "^9.3.1",
     "vc-js": "^0.6.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.7.0"
   }
 }

@@ -4,7 +4,8 @@
   "description": "",
   "main": "sign-by-issuer.ts",
   "scripts": {
-    "sign-by-issuer": "ts-node sign-by-issuer.ts"
+    "sign-by-issuer": "ts-node sign-by-issuer.ts",
+    "verify": "ts-node verify.ts"
   },
   "author": "",
   "license": "ISC",

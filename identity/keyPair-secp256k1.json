@@ -1,0 +1,6 @@
+{
+  "controller": "did:key:zQ3shWrJXAwhfpB12pFqpTmxEpL84yrDj1t98cnuiumiJZLMJ",
+  "type": "EcdsaSecp256k1VerificationKey2019",
+  "publicKeyBase58": "ku9WKoECVXn9aAAQ5h5BzjkdL62kjL6bgs9vcS3BLrVa",
+  "privateKeyBase58": "8mWPnUSj9kEiiYiGwKfi1St7qqiaXgEW5o1BZuN5B4Ta"
+}

@@ -9,8 +9,8 @@
     "VerifiableCredential",
     "BlockcertsCredential"
   ],
-  "issuer": "did:key:z6MkhpsoPXyDwDDKmzXG8TY6GuMRCVRds5sPMzNY9ZLbK3Ra",
-  "issuanceDate": "2022-07-13T17:20:50.044Z",
+  "issuer": "did:key:z6Mketd66wsLqjYt4gP6B18oFETp3gfcg6omyN78yxv9jqzg",
+  "issuanceDate": "2022-07-13T19:48:07.288Z",
   "credentialSubject": {
     "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
     "name": "Julien Fraichot",
@@ -28,9 +28,9 @@
   },
   "proof": {
     "type": "Ed25519Signature2020",
-    "created": "2022-07-13T17:20:50.065Z",
-    "verificationMethod": "did:key:z6MkhpsoPXyDwDDKmzXG8TY6GuMRCVRds5sPMzNY9ZLbK3Ra#z6MkhpsoPXyDwDDKmzXG8TY6GuMRCVRds5sPMzNY9ZLbK3Ra",
+    "created": "2022-07-13T19:48:07.307Z",
+    "verificationMethod": "did:key:z6Mketd66wsLqjYt4gP6B18oFETp3gfcg6omyN78yxv9jqzg#z6Mketd66wsLqjYt4gP6B18oFETp3gfcg6omyN78yxv9jqzg",
     "proofPurpose": "assertionMethod",
-    "proofValue": "z4uFJDK5aq2DW6eUzvjZ43aX9PnjeZasQ2FNyVigD8V4WG5bAYdXDQSbpLmQiQ5sqCJrCwexaFknpRdiAcGRXb6JG"
+    "proofValue": "z48nK6vKJr2VVrURG7qkFf1jwacNS4m6Vxysjfo3quKjj9EmXfKiaxb84udS79wjZ3qwi7AbVFJy2nWMrkt32BKiR"
   }
 }

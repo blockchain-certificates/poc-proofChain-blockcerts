@@ -1,15 +1,16 @@
 const { Ed25519Signature2020 } = require('@digitalbazaar/ed25519-signature-2020');
 const jsigs = require('jsonld-signatures');
 const {purposes: {AssertionProofPurpose}} = jsigs;
-import generateSignerData from './generateSignerData';
+import generateSignerData, {SupportedSuites} from './generateSignerData';
 import currentTime from './currentTime';
 import generateDocumentLoader from './generateDocumentLoader';
 
 export default async function signEd25519 (credential, keyPair = null, didDocument = null, documentLoader = generateDocumentLoader()) {
   if (!keyPair) {
     console.log('no keyPair provided, generating a new one');
-    const signerData = await generateSignerData();
+    const signerData = await generateSignerData(SupportedSuites.ed25519);
     keyPair = signerData.keyPair;
+    console.log('before sign', keyPair);
     didDocument = signerData.didDocument;
     credential.issuer = didDocument.id;
   }

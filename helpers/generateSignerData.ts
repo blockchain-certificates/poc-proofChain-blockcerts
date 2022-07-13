@@ -37,6 +37,7 @@ export default async function generateSignerData (type: SupportedSuites) {
     });
     didDocument = didKey.didDocument;
     keyPair.controller = didDocument.id;
+    keyPair.id = didDocument.verificationMethod[0].id;
   }
 
   await writeFile(keyPair, `keyPair-${type}.json`, 'identity/');

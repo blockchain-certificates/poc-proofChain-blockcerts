@@ -8,8 +8,8 @@
     "VerifiableCredential",
     "BlockcertsCredential"
   ],
-  "issuer": "did:key:zQ3shWrJXAwhfpB12pFqpTmxEpL84yrDj1t98cnuiumiJZLMJ",
-  "issuanceDate": "2022-07-13T19:52:59.831Z",
+  "issuer": "did:key:zQ3shuUL5XS8731qUSUzCvLg8MHwzrxBxVNinNAk7TfiUHBnv",
+  "issuanceDate": "2022-07-13T20:12:04.556Z",
   "credentialSubject": {
     "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
     "name": "Julien Fraichot",
@@ -27,8 +27,9 @@
   },
   "proof": {
     "type": "EcdsaSecp256k1Signature2019",
-    "created": "2022-07-13T19:52:59.864Z",
+    "created": "2022-07-13T20:12:04.582Z",
+    "verificationMethod": "did:key:zQ3shuUL5XS8731qUSUzCvLg8MHwzrxBxVNinNAk7TfiUHBnv#zQ3shuUL5XS8731qUSUzCvLg8MHwzrxBxVNinNAk7TfiUHBnv",
     "proofPurpose": "assertionMethod",
-    "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..m2U4t0ZVZwbu3mwRAGky2HWTIoIwltxtLhP8VbKY7JVElRNWLoSJPCQLAdwRcCrZYT_U6bKPeCEayKscvrpXqw"
+    "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..qlBMOLUxTwl0dvUHB4gYGdLISI89BrgE8CwZBCl7cc8eZVocPaHqLkU3m_b5DHinsv7MTBX-l2Ay6a4YrDh2Vw"
   }
 }

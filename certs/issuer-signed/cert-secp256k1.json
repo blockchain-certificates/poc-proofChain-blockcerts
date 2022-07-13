@@ -1,0 +1,103 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/blockcerts/v3"
+  ],
+  "id": "urn:uuid:bbba8553-8ec1-445f-82c9-a57251dd731c",
+  "type": [
+    "VerifiableCredential",
+    "BlockcertsCredential"
+  ],
+  "issuer": "did:key:z6MkiJnCnSHE5piZ4hnFsxYyPQxf2c2gAMx47VR3PkgmpfvA",
+  "issuanceDate": "2022-07-13T17:20:43.989Z",
+  "credentialSubject": {
+    "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
+    "name": "Julien Fraichot",
+    "email": "julien.fraichot@hyland.com",
+    "publicKey": "ecdsa-koblitz-pubkey:1BPQXndcz5Uf3qZQkgnvJC87LUD5n7a2mC",
+    "claim": {
+      "name": "Master of Puppets",
+      "description": "Awarded to those who rock"
+    }
+  },
+  "metadata": "{\"classOf\":\"2021\"}",
+  "display": {
+    "contentMediaType": "text/html",
+    "content": "<div style=\"background-color:transparent;padding:6px;display:inline-flex;align-items:center;flex-direction:column\">Yo</div>"
+  },
+  "proof": {
+    "type": "EcdsaSecp256k1Signature2019",
+    "created": "2022-07-13T17:20:44.009Z",
+    "verificationMethod": "did:key:z6MkiJnCnSHE5piZ4hnFsxYyPQxf2c2gAMx47VR3PkgmpfvA#z6MkiJnCnSHE5piZ4hnFsxYyPQxf2c2gAMx47VR3PkgmpfvA",
+    "proofPurpose": "assertionMethod",
+    "jws": {
+      "type": "Buffer",
+      "data": [
+        76,
+        102,
+        111,
+        219,
+        57,
+        2,
+        108,
+        217,
+        169,
+        111,
+        12,
+        16,
+        188,
+        10,
+        188,
+        241,
+        3,
+        185,
+        116,
+        25,
+        221,
+        226,
+        165,
+        222,
+        39,
+        206,
+        86,
+        182,
+        220,
+        183,
+        123,
+        192,
+        165,
+        99,
+        131,
+        25,
+        239,
+        105,
+        33,
+        248,
+        14,
+        36,
+        89,
+        185,
+        223,
+        253,
+        222,
+        149,
+        202,
+        1,
+        97,
+        7,
+        115,
+        43,
+        249,
+        233,
+        169,
+        191,
+        181,
+        198,
+        111,
+        6,
+        176,
+        14
+      ]
+    }
+  }
+}

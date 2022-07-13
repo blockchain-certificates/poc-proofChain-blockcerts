@@ -4,33 +4,33 @@
     "https://w3id.org/security/suites/ed25519-2020/v1",
     "https://w3id.org/security/suites/x25519-2020/v1"
   ],
-  "id": "did:key:z6Mkr1pDe6BpWLcUAsA3EjVrzKsJ8zB8YPN3P1JYg3ZfcAd7",
+  "id": "did:key:z6MkhpsoPXyDwDDKmzXG8TY6GuMRCVRds5sPMzNY9ZLbK3Ra",
   "verificationMethod": [
     {
-      "id": "did:key:z6Mkr1pDe6BpWLcUAsA3EjVrzKsJ8zB8YPN3P1JYg3ZfcAd7#z6Mkr1pDe6BpWLcUAsA3EjVrzKsJ8zB8YPN3P1JYg3ZfcAd7",
+      "id": "did:key:z6MkhpsoPXyDwDDKmzXG8TY6GuMRCVRds5sPMzNY9ZLbK3Ra#z6MkhpsoPXyDwDDKmzXG8TY6GuMRCVRds5sPMzNY9ZLbK3Ra",
       "type": "Ed25519VerificationKey2020",
-      "controller": "did:key:z6Mkr1pDe6BpWLcUAsA3EjVrzKsJ8zB8YPN3P1JYg3ZfcAd7",
-      "publicKeyMultibase": "z6Mkr1pDe6BpWLcUAsA3EjVrzKsJ8zB8YPN3P1JYg3ZfcAd7"
+      "controller": "did:key:z6MkhpsoPXyDwDDKmzXG8TY6GuMRCVRds5sPMzNY9ZLbK3Ra",
+      "publicKeyMultibase": "z6MkhpsoPXyDwDDKmzXG8TY6GuMRCVRds5sPMzNY9ZLbK3Ra"
     }
   ],
   "authentication": [
-    "did:key:z6Mkr1pDe6BpWLcUAsA3EjVrzKsJ8zB8YPN3P1JYg3ZfcAd7#z6Mkr1pDe6BpWLcUAsA3EjVrzKsJ8zB8YPN3P1JYg3ZfcAd7"
+    "did:key:z6MkhpsoPXyDwDDKmzXG8TY6GuMRCVRds5sPMzNY9ZLbK3Ra#z6MkhpsoPXyDwDDKmzXG8TY6GuMRCVRds5sPMzNY9ZLbK3Ra"
   ],
   "assertionMethod": [
-    "did:key:z6Mkr1pDe6BpWLcUAsA3EjVrzKsJ8zB8YPN3P1JYg3ZfcAd7#z6Mkr1pDe6BpWLcUAsA3EjVrzKsJ8zB8YPN3P1JYg3ZfcAd7"
+    "did:key:z6MkhpsoPXyDwDDKmzXG8TY6GuMRCVRds5sPMzNY9ZLbK3Ra#z6MkhpsoPXyDwDDKmzXG8TY6GuMRCVRds5sPMzNY9ZLbK3Ra"
   ],
   "capabilityDelegation": [
-    "did:key:z6Mkr1pDe6BpWLcUAsA3EjVrzKsJ8zB8YPN3P1JYg3ZfcAd7#z6Mkr1pDe6BpWLcUAsA3EjVrzKsJ8zB8YPN3P1JYg3ZfcAd7"
+    "did:key:z6MkhpsoPXyDwDDKmzXG8TY6GuMRCVRds5sPMzNY9ZLbK3Ra#z6MkhpsoPXyDwDDKmzXG8TY6GuMRCVRds5sPMzNY9ZLbK3Ra"
   ],
   "capabilityInvocation": [
-    "did:key:z6Mkr1pDe6BpWLcUAsA3EjVrzKsJ8zB8YPN3P1JYg3ZfcAd7#z6Mkr1pDe6BpWLcUAsA3EjVrzKsJ8zB8YPN3P1JYg3ZfcAd7"
+    "did:key:z6MkhpsoPXyDwDDKmzXG8TY6GuMRCVRds5sPMzNY9ZLbK3Ra#z6MkhpsoPXyDwDDKmzXG8TY6GuMRCVRds5sPMzNY9ZLbK3Ra"
   ],
   "keyAgreement": [
     {
-      "id": "did:key:z6Mkr1pDe6BpWLcUAsA3EjVrzKsJ8zB8YPN3P1JYg3ZfcAd7#z6LSezNHfnFBuD8wTA6reUxyWCee5TuhQ5eEGNHe9oJ4gnGX",
+      "id": "did:key:z6MkhpsoPXyDwDDKmzXG8TY6GuMRCVRds5sPMzNY9ZLbK3Ra#z6LSoJ2hjZJhvvqcK8958MwMvMaiM5sxcYPxeH6mhUtLkjjf",
       "type": "X25519KeyAgreementKey2020",
-      "controller": "did:key:z6Mkr1pDe6BpWLcUAsA3EjVrzKsJ8zB8YPN3P1JYg3ZfcAd7",
-      "publicKeyMultibase": "z6LSezNHfnFBuD8wTA6reUxyWCee5TuhQ5eEGNHe9oJ4gnGX"
+      "controller": "did:key:z6MkhpsoPXyDwDDKmzXG8TY6GuMRCVRds5sPMzNY9ZLbK3Ra",
+      "publicKeyMultibase": "z6LSoJ2hjZJhvvqcK8958MwMvMaiM5sxcYPxeH6mhUtLkjjf"
     }
   ]
 }

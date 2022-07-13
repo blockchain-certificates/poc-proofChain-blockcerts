@@ -1,7 +1,7 @@
 {
-  "id": "did:key:z6Mkr1pDe6BpWLcUAsA3EjVrzKsJ8zB8YPN3P1JYg3ZfcAd7#z6Mkr1pDe6BpWLcUAsA3EjVrzKsJ8zB8YPN3P1JYg3ZfcAd7",
-  "controller": "did:key:z6Mkr1pDe6BpWLcUAsA3EjVrzKsJ8zB8YPN3P1JYg3ZfcAd7",
+  "id": "did:key:z6MkhpsoPXyDwDDKmzXG8TY6GuMRCVRds5sPMzNY9ZLbK3Ra#z6MkhpsoPXyDwDDKmzXG8TY6GuMRCVRds5sPMzNY9ZLbK3Ra",
+  "controller": "did:key:z6MkhpsoPXyDwDDKmzXG8TY6GuMRCVRds5sPMzNY9ZLbK3Ra",
   "type": "Ed25519VerificationKey2020",
-  "publicKeyMultibase": "z6Mkr1pDe6BpWLcUAsA3EjVrzKsJ8zB8YPN3P1JYg3ZfcAd7",
-  "privateKeyMultibase": "zrv5G6dbpXGgCHqpJupQRxkbxEjtWfsg86ZGHqULpPUCkD6ERxxWmaeJSdBWczJGtuwZqH6SR624ycTsb8UCmankVtd"
+  "publicKeyMultibase": "z6MkhpsoPXyDwDDKmzXG8TY6GuMRCVRds5sPMzNY9ZLbK3Ra",
+  "privateKeyMultibase": "zrv2mqQQvJXzjCb4dyksVZ3WfzpmqUWG28bYhA7ExpZmqW4Htq9f5rC7YUzJGnBhJycCXetda1qBNCziEz6Tu5ge8TJ"
 }

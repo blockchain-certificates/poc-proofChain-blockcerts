@@ -5,7 +5,7 @@ import generateSignerData from './generateSignerData';
 import currentTime from './currentTime';
 import generateDocumentLoader from './generateDocumentLoader';
 
-export default async function signCredential (credential, keyPair = null, didDocument = null, documentLoader = generateDocumentLoader()) {
+export default async function signEd25519 (credential, keyPair = null, didDocument = null, documentLoader = generateDocumentLoader()) {
   if (!keyPair) {
     console.log('no keyPair provided, generating a new one');
     const signerData = await generateSignerData();

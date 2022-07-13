@@ -8,7 +8,7 @@ import generateDocumentLoader from "./helpers/generateDocumentLoader";
 import currentTime from "./helpers/currentTime";
 
 async function verifyCredential () {
-  const credential: any = loadFileData('certs/issuer-signed/cert-ecdsa25519.json');
+  const credential: any = loadFileData('certs/issuer-signed/cert-ed25519.json');
   const didDocument = await didKeyDriver.get({ did: credential.issuer });
   if (!didDocument) {
     throw new Error('Only did:key issuers are supported at this moment');

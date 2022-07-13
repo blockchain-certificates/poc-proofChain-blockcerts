@@ -9,7 +9,7 @@
     "BlockcertsCredential"
   ],
   "issuer": "https://www.blockcerts.org/samples/3.0/issuer-blockcerts.json#publicKey",
-  "issuanceDate": "2021-09-07T19:33:24Z",
+  "issuanceDate": "2022-05-25T15:15:24Z",
   "credentialSubject": {
     "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
     "name": "Julien Fraichot",

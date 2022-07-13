@@ -3,10 +3,10 @@ import currentTime from './helpers/currentTime';
 import signCredential from './helpers/signCredential';
 import writeFile from './helpers/writeFile';
 
-async function signByIssuer () {
+async function signEcdsa25519 () {
   credential.issuanceDate = currentTime();
   const signedCredential = await signCredential(credential);
-  await writeFile(signedCredential, 'cert-no-did.json', 'certs/issuer-signed/');
+  await writeFile(signedCredential, 'cert-ecdsa25519.json', 'certs/issuer-signed/');
 }
 
-signByIssuer();
+signEcdsa25519();

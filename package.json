@@ -2,9 +2,9 @@
   "name": "poc-proofchain-blockcerts",
   "version": "1.0.0",
   "description": "",
-  "main": "sign-by-issuer.ts",
+  "main": "sign-ecdsa25519.ts",
   "scripts": {
-    "sign-by-issuer": "ts-node sign-by-issuer.ts",
+    "sign-ecdsa25519": "ts-node sign-ecdsa25519.ts",
     "verify": "ts-node verify.ts"
   },
   "author": "",

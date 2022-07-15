@@ -41,7 +41,9 @@ async function verifyCredential () {
   const verificationStatus = await jsigs.verify(credential, {
     suite,
     purpose: new AssertionProofPurpose(),
-    documentLoader: generateDocumentLoader()
+    documentLoader: generateDocumentLoader([{
+      [verificationMethod.controller]: loadFileData('identity/did-secp256k1.json')
+    }])
   });
 
   if (!verificationStatus.verified) {

@@ -9,12 +9,13 @@ import currentTime from "./helpers/currentTime";
 
 async function verifyCredential () {
   const credential: any = loadFileData('certs/issuer-signed/cert-secp256k1.json');
+  console.log('verify credential', credential);
   const { didDocument } = await didKeySecp256k1.resolve(credential.issuer);
   if (!didDocument) {
     throw new Error('Only did:key issuers are supported at this moment');
   }
 
-  console.log('did document', didDocument);
+  console.log('did document', JSON.stringify(didDocument, null, 2));
 
   const verificationMethod = didDocument.verificationMethod
     .find(verificationMethod => verificationMethod.id === credential.proof.verificationMethod);
@@ -29,7 +30,7 @@ async function verifyCredential () {
     ...verificationMethod
   });
 
-  console.log('verification key', verificationKey);
+  console.log('verification key', JSON.stringify(verificationKey, null, 2));
 
   if (verificationKey.revoked) {
     throw new Error('The verification key has been revoked');
@@ -37,6 +38,8 @@ async function verifyCredential () {
 
   const suite = new EcdsaSecp256k1Signature2019({ key: verificationKey });
   suite.date = currentTime();
+
+  console.log(suite);
 
   const verificationStatus = await jsigs.verify(credential, {
     suite,

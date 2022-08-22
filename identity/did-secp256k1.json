@@ -3,33 +3,33 @@
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/suites/jws-2020/v1"
   ],
-  "id": "did:key:zQ3shQHqLdkCacGpenXzbXZLqBbDeKfxgbxJgDSi1hoajzzg8",
+  "id": "did:key:zQ3shMrQwHKhNtjWNY8chfCRSHphDtPpAypvXW8ji2xi817c1",
   "verificationMethod": [
     {
-      "id": "did:key:zQ3shQHqLdkCacGpenXzbXZLqBbDeKfxgbxJgDSi1hoajzzg8#zQ3shQHqLdkCacGpenXzbXZLqBbDeKfxgbxJgDSi1hoajzzg8",
+      "id": "did:key:zQ3shMrQwHKhNtjWNY8chfCRSHphDtPpAypvXW8ji2xi817c1#zQ3shMrQwHKhNtjWNY8chfCRSHphDtPpAypvXW8ji2xi817c1",
       "type": "JsonWebKey2020",
-      "controller": "did:key:zQ3shQHqLdkCacGpenXzbXZLqBbDeKfxgbxJgDSi1hoajzzg8",
+      "controller": "did:key:zQ3shMrQwHKhNtjWNY8chfCRSHphDtPpAypvXW8ji2xi817c1",
       "publicKeyJwk": {
         "kty": "EC",
         "crv": "secp256k1",
-        "x": "KsrqUpXW_KjeZmlM7THXPILJWxGwrkPJltF2_ilhuIk",
-        "y": "IdeZ43CVyjwHEs_DaRBR-AH7jgKNZ5gF506mnDF_NHA"
+        "x": "BpBt2iJlQGm3QpG5r0mJNDxwXXFlRAWdZsHWWIK_HBY",
+        "y": "tlbW6AMB3MmRk1JbWNZhc77q8TnSxgJidpvyA0rH0BI"
       }
     }
   ],
   "assertionMethod": [
-    "did:key:zQ3shQHqLdkCacGpenXzbXZLqBbDeKfxgbxJgDSi1hoajzzg8#zQ3shQHqLdkCacGpenXzbXZLqBbDeKfxgbxJgDSi1hoajzzg8"
+    "did:key:zQ3shMrQwHKhNtjWNY8chfCRSHphDtPpAypvXW8ji2xi817c1#zQ3shMrQwHKhNtjWNY8chfCRSHphDtPpAypvXW8ji2xi817c1"
   ],
   "authentication": [
-    "did:key:zQ3shQHqLdkCacGpenXzbXZLqBbDeKfxgbxJgDSi1hoajzzg8#zQ3shQHqLdkCacGpenXzbXZLqBbDeKfxgbxJgDSi1hoajzzg8"
+    "did:key:zQ3shMrQwHKhNtjWNY8chfCRSHphDtPpAypvXW8ji2xi817c1#zQ3shMrQwHKhNtjWNY8chfCRSHphDtPpAypvXW8ji2xi817c1"
   ],
   "capabilityInvocation": [
-    "did:key:zQ3shQHqLdkCacGpenXzbXZLqBbDeKfxgbxJgDSi1hoajzzg8#zQ3shQHqLdkCacGpenXzbXZLqBbDeKfxgbxJgDSi1hoajzzg8"
+    "did:key:zQ3shMrQwHKhNtjWNY8chfCRSHphDtPpAypvXW8ji2xi817c1#zQ3shMrQwHKhNtjWNY8chfCRSHphDtPpAypvXW8ji2xi817c1"
   ],
   "capabilityDelegation": [
-    "did:key:zQ3shQHqLdkCacGpenXzbXZLqBbDeKfxgbxJgDSi1hoajzzg8#zQ3shQHqLdkCacGpenXzbXZLqBbDeKfxgbxJgDSi1hoajzzg8"
+    "did:key:zQ3shMrQwHKhNtjWNY8chfCRSHphDtPpAypvXW8ji2xi817c1#zQ3shMrQwHKhNtjWNY8chfCRSHphDtPpAypvXW8ji2xi817c1"
   ],
   "keyAgreement": [
-    "did:key:zQ3shQHqLdkCacGpenXzbXZLqBbDeKfxgbxJgDSi1hoajzzg8#zQ3shQHqLdkCacGpenXzbXZLqBbDeKfxgbxJgDSi1hoajzzg8"
+    "did:key:zQ3shMrQwHKhNtjWNY8chfCRSHphDtPpAypvXW8ji2xi817c1#zQ3shMrQwHKhNtjWNY8chfCRSHphDtPpAypvXW8ji2xi817c1"
   ]
 }

@@ -8,8 +8,8 @@
     "VerifiableCredential",
     "BlockcertsCredential"
   ],
-  "issuer": "did:key:zQ3shQHqLdkCacGpenXzbXZLqBbDeKfxgbxJgDSi1hoajzzg8",
-  "issuanceDate": "2022-07-13T20:21:40.088Z",
+  "issuer": "https://www.blockcerts.org/samples/3.0/issuer-blockcerts.json",
+  "issuanceDate": "2022-08-18T14:55:40.433Z",
   "credentialSubject": {
     "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
     "name": "Julien Fraichot",
@@ -27,9 +27,9 @@
   },
   "proof": {
     "type": "EcdsaSecp256k1Signature2019",
-    "created": "2022-07-13T20:21:40.114Z",
-    "verificationMethod": "did:key:zQ3shQHqLdkCacGpenXzbXZLqBbDeKfxgbxJgDSi1hoajzzg8#zQ3shQHqLdkCacGpenXzbXZLqBbDeKfxgbxJgDSi1hoajzzg8",
+    "created": "2022-08-18T14:55:40.458Z",
+    "verificationMethod": "https://www.blockcerts.org/samples/3.0/issuer-blockcerts.json#secp256k1-verification-public-key",
     "proofPurpose": "assertionMethod",
-    "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..p2R_KhhRWiqw0P8HeIb4dgqx-K9fAgFZ8jPAM57fmpVH9XLwzPn1wK8HWH5I_NYkdhaqnDPLHiFv17cLLjcG2A"
+    "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdfQ..g9PR2-UIsgbAAeEY2p8od8sv1v54P49VuBhRr0M_zZ1x9o5zh2VWyHy_rhipqJzmtPFxw7Dr0ET11oB1fa9atw"
   }
 }

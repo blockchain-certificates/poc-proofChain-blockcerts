@@ -1,7 +1,7 @@
 {
-  "id": "did:key:zQ3shQHqLdkCacGpenXzbXZLqBbDeKfxgbxJgDSi1hoajzzg8#zQ3shQHqLdkCacGpenXzbXZLqBbDeKfxgbxJgDSi1hoajzzg8",
-  "controller": "did:key:zQ3shQHqLdkCacGpenXzbXZLqBbDeKfxgbxJgDSi1hoajzzg8",
+  "id": "did:key:zQ3shMrQwHKhNtjWNY8chfCRSHphDtPpAypvXW8ji2xi817c1#zQ3shMrQwHKhNtjWNY8chfCRSHphDtPpAypvXW8ji2xi817c1",
+  "controller": "did:key:zQ3shMrQwHKhNtjWNY8chfCRSHphDtPpAypvXW8ji2xi817c1",
   "type": "EcdsaSecp256k1VerificationKey2019",
-  "publicKeyBase58": "eLgKnbj7HdbmYSKB9UTnMzrCfumiKQG9HWxDQTucnWpQ",
-  "privateKeyBase58": "75mTJWzKSZhB736qThjbjzjuF9KERYBsqC6qM4SkFqBB"
+  "publicKeyBase58": "buFvSBDua6HVJ2wHH7YPUEKnEddChGszaCyujd2zndkH",
+  "privateKeyBase58": "CfTSoQ7Z4reXgUD73YLtSEAq2Nophu8pc9runiRZq5US"
 }
